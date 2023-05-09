@@ -141,21 +141,21 @@ public class MainProject {
 			System.out.println("Ecco l'elenco dei numeri in posizone pari: ");
 			for(int i=0;i<arrayInteri.size();i++){
 				
-				if(i%2==0 && !(i==arrayInteri.size()-1) ){
+				if(i%2==0 && !(i==arrayInteri.size()-2)  ){
 					System.out.print(arrayInteri.get(i+1)+" , ");
 				}
-				if(i%2==0 && i==arrayInteri.size()-2 ){
+				 if(i%2==0 && i==arrayInteri.size()-2){
 					System.out.println(arrayInteri.get(i+1));
 				}
 			}
 		}else if(!c){
 			System.out.println("Ecco l'elenco dei numeri in posizone dispari: ");
 			for(int h=0;h<arrayInteri.size();h++){
-				if(h%2!=0){
+				if(h%2!=0 && !(h==arrayInteri.size()-1 )){
 					System.out.print(arrayInteri.get(h-1)+" , ");
 				}
 				if(h%2!=0 && h==arrayInteri.size()-1 ){
-					System.out.println(arrayInteri.get(h));
+					System.out.println(arrayInteri.get(h-1));
 				}
 			}
 		}
