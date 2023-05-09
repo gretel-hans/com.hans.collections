@@ -15,7 +15,7 @@ public class MainProject {
 
 	public static void main(String[] args) {
 
-		//primoEsercizio();
+		primoEsercizio();
 
 		boolean uscitaSecondoEsercioA = false;
 		do {
